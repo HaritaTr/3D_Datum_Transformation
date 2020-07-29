@@ -8,7 +8,7 @@
 
 **Yazılım Kullanımı;**
 
-Çalıştırdığınızda 2 hesaplama göreceksiniz. Seçtiğiniz hesaplamaya göre hesaplar yapılacaktır.
+Çalıştırdığınızda 2 farklı hesaplama göreceksiniz. Seçtiğiniz hesaplamaya göre hesaplar yapılacaktır.
 
 + ED50 datumundan WGS84 datumuna 3 boyutlu kartezyen koordinat dönüşümünde; 3 boyutlu ED50 Kartezyen koordinatları ile 3 boyutlu dönüşüm parametreleri olan, eksenlerde 3 dönüklük,  3 öteleme ve 1 ölçek değerlerinin girilmesi gerekmektedir.
 
