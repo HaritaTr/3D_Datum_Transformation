@@ -63,15 +63,15 @@ int main()
 		k1 = (kolc / 1000000) * Xed50 + Xote;
 		//printf("k1 değeri: %f\n", k1);
 		Xwgs84 = ((1 * Xed50) + (Zdon * Yed50) + (-Ydon * Zed50)) + k1;
-		printf("Xwgs84 değeri: %f\n", Xwgs84);
+		printf("X WGS84 (Xwgs84) değeri: %f\n", Xwgs84);
 		k2 = (kolc / 1000000) * Yed50 + Yote;
 		//printf("k2 değeri: %f\n", k2);
 		Ywgs84 = ((-Zdon * Xed50) + (1 * Yed50) + (Xdon * Zed50)) + k2;
-		printf("Ywgs84 değeri: %f\n", Ywgs84);
+		printf("Y WGS84 (Ywgs84) değeri: %f\n", Ywgs84);
 		k3 = (kolc / 1000000) * Zed50 + Zote;
 		//printf("k3 değeri: %f\n", k3);
 		Zwgs84 = ((Ydon * Xed50) + (-Xdon * Yed50) + (1 * Zed50)) + k3;
-		printf("Zwgs84 değeri: %f\n", Zwgs84);
+		printf("Z WGS84 (Zwgs84) değeri: %f\n", Zwgs84);
 	}
 	else if(x == 2)
 	{
@@ -118,15 +118,15 @@ int main()
 		k1wgs84 = (kolcwgs84 / 1000000) * Xwgs84 + Xotewgs84;
 		//printf("k1wgs84 değeri: %f\n", k1wgs84);
 		Xed50 = ((1 * Xwgs84) + (Zdonwgs84 * Ywgs84) + (-Ydonwgs84 * Zwgs84)) + k1wgs84;
-		printf("Xed50 değeri: %f\n", Xed50);
+		printf("X ED50 (Xed50) değeri: %f\n", Xed50);
 		k2wgs84 = (kolcwgs84 / 1000000) * Ywgs84 + Yotewgs84;
 		//printf("k2wgs84 değeri: %f\n", k2wgs84);
 		Yed50 = ((-Zdonwgs84 * Xwgs84) + (1 * Ywgs84) + (Xdonwgs84 * Zwgs84)) + k2wgs84;
-		printf("Yed50 değeri: %f\n", Yed50);
+		printf("Y ED50 (Yed50) değeri: %f\n", Yed50);
 		k3wgs84 = (kolcwgs84 / 1000000) * Zed50 + Zotewgs84;
 		//printf("k3wgs84 değeri: %f\n", k3wgs84);
 		Zed50 = ((Ydonwgs84 * Xwgs84) + (-Xdonwgs84 * Ywgs84) + (1 * Zwgs84)) + k3wgs84;
-		printf("Zed50 değeri: %f\n", Zed50);
+		printf("Z ED50 (Zed50) değeri: %f\n", Zed50);
 	}
 	else
 	{
