@@ -1,4 +1,4 @@
-# 3 Boyutlu Datum Dönüşüm
+# 3 Boyutlu Datum Dönüşüm (ED50 <> WGS84)
 
 **Yazılımın Amacı;**
 
