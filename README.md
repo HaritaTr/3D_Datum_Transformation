@@ -4,7 +4,7 @@
 
 3 boyutlu kartezyen koordinatları, 3 eksen de dönüklük, 3 eksen de öteleme ve 1 ölçek olmak üzere, 7 adet 3 boyutlu dönüşüm parametrelerinin bilinmesi doğrultusunda, bilinmeyen datumda ki 3 boyutlu kartezyen koordinatlarının bulunmasını sağlamaktır.
 
-(ED50 <<>> WGS84)
+(ED50 <> WGS84)
 
 **Yazılım Kullanımı;**
 
