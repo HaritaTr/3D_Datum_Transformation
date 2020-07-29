@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 #include <math.h>
 #include <locale.h>
 
@@ -59,10 +59,6 @@ int main()
 	printf("k3 değeri: %f\n", k3);
 	Zwgs84 = ((Ydon * Xed50) + (-Xdon * Yed50) + (1 * Zed50)) + k3;
 	printf("Zwgs84 değeri: %f\n", Zwgs84);
-
-	
-
-
 
 	return 0;
 }
