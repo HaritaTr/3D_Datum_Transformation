@@ -12,6 +12,7 @@ int main()
 	double k1wgs84, k2wgs84, k3wgs84;
 
  			//// ED50 Datumundan WGS84 Datumuna Dönüşüm!!!
+	printf(" === ED50 Datumundan WGS84 Datumuna Dönüşüm!!! === \n");
  	/// Bilinenleri isteyelim.
  	/* ED50 Datumunda 3 Boyutlu Kartezyen Koordinatlar;
  	Xed50, Yed50, Zed50; */
@@ -39,7 +40,7 @@ int main()
 	// kolc;
  	printf("kolc değerini giriniz: ");
 	scanf("%lf", &kolc);
-	/// Bilinmeyenlerin hesaplanması.
+	/// Bilinmeyenlerin hesaplanması!!!
 	/* WGS84 Datumunda 3 Boyutlu Kartezyen Koordinatlar;
 	Xwgs84, Ywgs84, Zwgs84;
 	k1, k2, k3;
@@ -49,6 +50,7 @@ int main()
 	Ywgs84 = ((-Zdon * Xed50) + (1 * Yed50) + (Xdon * Zed50)) + k2;
 	k3 = (kolc / 1000000) * Zed50 + Zote;
 	Zwgs84 = ((Ydon * Xed50) + (-Xdon * Yed50) + (1 * Zed50)) + k3; */
+	printf(" ===  WGS84 Datumunda 3 Boyutlu Kartezyen Koordinatlar!!! === \n");
 	k1 = (kolc / 1000000) * Xed50 + Xote;
 	printf("k1 değeri: %f\n", k1);
 	Xwgs84 = ((1 * Xed50) + (Zdon * Yed50) + (-Ydon * Zed50)) + k1;
@@ -63,6 +65,7 @@ int main()
 	printf("Zwgs84 değeri: %f\n", Zwgs84);
 
 			////  WGS84 Datumundan ED50  Datumuna Dönüşüm!!!
+	printf(" === WGS84 Datumundan ED50  Datumuna Dönüşüm!!! === \n");
 	/// Bilinenleri isteyelim.
 	/* WGS84 Datumunda 3 Boyutlu Kartezyen Koordinatlar;
 	Xwgs84, Ywgs84, Zwgs84; */
@@ -100,6 +103,7 @@ int main()
 	Yed50 = ((-Zdonwgs84 * Xwgs84) + (1 * Ywgs84) + (Xdonwgs84 * Zwgs84)) + k2wgs84;
 	k3wgs84 = (kolcwgs84 / 1000000) * Zed50 + Zotewgs84;
 	Zed50 = ((Ydonwgs84 * Xwgs84) + (-Xdonwgs84 * Ywgs84) + (1 * Zwgs84)) + k3wgs84; */
+	printf(" ===  ED50 Datumunda 3 Boyutlu Kartezyen Koordinatlar!!! === \n");
 	k1wgs84 = (kolcwgs84 / 1000000) * Xwgs84 + Xotewgs84;
 	printf("k1wgs84 değeri: %f\n", k1wgs84);
 	Xed50 = ((1 * Xwgs84) + (Zdonwgs84 * Ywgs84) + (-Ydonwgs84 * Zwgs84)) + k1wgs84;
