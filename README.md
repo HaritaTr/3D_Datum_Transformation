@@ -1,9 +1,13 @@
 # 3 Boyutlu Datum Dönüşüm
 
+**Yazılımın Amacı;**
+
+3 boyutlu kartezyen koordinatları, 3 eksen de dönüklük, 3 eksen de öteleme ve 1 ölçek olmak üzere, 7 adet 3 boyutlu dönüşüm parametrelerinin bilinmesi doğrultusunda, bilinmeyen datumda ki 3 boyutlu kartezyen koordinatlarının bulunmasını sağlamaktır. (ED50 <<>> WGS84)
+
 **Yazılım Kullanımı;**
 
 Yazılımı çalıştırdığınız zaman, 2 hesaplama göreceksiniz. Her bir hesaplama kendi içinde ayrı yapılmaktadır.
 
-+ ED50 Datumundan WGS84 Datumuna 3 Boyutlu Kartezyen Koordinat Dönüşümünde; 3 Boyutlu ED50 Kartezyen Koordinatları ile 3 Boyutlu Dönüşüm Parametreleri olan, Eksenlerde 3 Dönüklük, 3 Öteleme ve 1 Ölçek değerlerinin DataGridview hücrelerine girilmesi gerekmektedir.
++ ED50 datumundan WGS84 datumuna 3 boyutlu kartezyen koordinat dönüşümünde; 3 boyutlu ED50 Kartezyen koordinatları ile 3 boyutlu dönüşüm parametreleri olan, eksenlerde 3 dönüklük,  3 öteleme ve 1 ölçek değerlerinin girilmesi gerekmektedir.
 
-+ WGS84 Datumundan  ED50 Datumuna 3 Boyutlu Kartezyen Koordinat Dönüşümünde; 3 Boyutlu WGS84 Kartezyen Koordinatları ile 3 Boyutlu Dönüşüm Parametreleri olan, Eksenlerde 3 Dönüklük, 3 Öteleme ve 1 Ölçek değerlerinin DataGridview değerlerinin girilmesi gerekmektedir.
++ WGS84 datumundan  ED50 datumuna 3 boyutlu kartezyen koordinat dönüşümünde; 3 boyutlu WGS84 kartezyen koordinatları ile 3 boyutlu dönüşüm parametreleri olan, eksenlerde 3  dönüklük, 3 öteleme ve 1 ölçek değerlerinin girilmesi gerekmektedir.
