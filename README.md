@@ -1,6 +1,6 @@
 # 3 Boyutlu Datum Dönüşüm
 
-**Kullanımı;**
+**Yazılım Kullanımı;**
 
 Yazılımı çalıştırdığınız zaman, 2 hesaplama göreceksiniz. Her bir hesaplama kendi içinde ayrı yapılmaktadır.
 
